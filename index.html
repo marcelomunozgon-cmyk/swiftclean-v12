@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SwiftClean V12 – Aspiradora Inalámbrica | Venta Chile</title>
+  <meta name="description" content="Aspiradora inalámbrica SwiftClean V12. Motor brushless 25Kpa, filtro HEPA lavable, soporte de pared. Envíos a todo Chile." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50:  '#f0f9ff',
+              100: '#e0f2fe',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              900: '#0c4a6e',
+            },
+            cta: {
+              DEFAULT: '#f97316',
+              hover:   '#ea580c',
+            },
+            ml:  { DEFAULT: '#FFE600', hover: '#e6cf00' }
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    html { scroll-behavior: smooth; }
+    .gradient-hero { background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 55%, #0ea5e9 100%); }
+    .pulse-cta { animation: pulse-orange 2s cubic-bezier(0.4,0,0.6,1) infinite; }
+    @keyframes pulse-orange {
+      0%,100% { box-shadow: 0 0 0 0 rgba(249,115,22,.5); }
+      50%      { box-shadow: 0 0 0 14px rgba(249,115,22,0); }
+    }
+    .pulse-green { animation: pulse-grn 2s cubic-bezier(0.4,0,0.6,1) infinite; }
+    @keyframes pulse-grn {
+      0%,100% { box-shadow: 0 0 0 0 rgba(34,197,94,.5); }
+      50%      { box-shadow: 0 0 0 14px rgba(34,197,94,0); }
+    }
+    .badge-new  { background: linear-gradient(90deg,#f97316,#ef4444); }
+    .badge-kpa  { background: linear-gradient(90deg,#0ea5e9,#0369a1); }
+    .spec-row:nth-child(even) { background:#f0f9ff; }
+    .faq-content { max-height:0; overflow:hidden; transition: max-height .35s ease; }
+    .faq-item.open .faq-content { max-height:400px; }
+    .faq-item.open .faq-icon { transform:rotate(45deg); }
+    .faq-icon  { transition: transform .3s ease; }
+    .star      { color:#f59e0b; }
+    .sticky-bar { backdrop-filter:blur(12px); background:rgba(12,74,110,.95); }
+    .prod-img  { width:100%; height:100%; object-fit:cover; border-radius:1.25rem; }
+    .img-wrap  { background:#e0f2fe; border-radius:1.25rem; overflow:hidden;
+                 display:flex; align-items:center; justify-content:center; min-height:220px; }
+    .kpa-badge { background: linear-gradient(135deg,#1e3a8a,#0ea5e9);
+                 border-radius:50%; width:90px; height:90px;
+                 display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  </style>
+</head>
+<body class="font-sans bg-white text-gray-900 antialiased">
+
+<!-- ─────────────────────────────────────────
+     ANNOUNCEMENT BAR
+───────────────────────────────────────── -->
+<div class="bg-brand-900 text-white text-center text-xs sm:text-sm py-2 px-4 font-medium tracking-wide">
+  🚚&nbsp; ENVÍO GRATIS a todo Chile &nbsp;·&nbsp; ⚡ Stock limitado &nbsp;·&nbsp;
+  🛒 También en&nbsp;<a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM"
+     target="_blank" class="underline font-bold text-yellow-300 hover:text-yellow-200">MercadoLibre</a>
+</div>
+
+<!-- ─────────────────────────────────────────
+     NAVBAR
+───────────────────────────────────────── -->
+<header class="sticky top-0 z-50 sticky-bar border-b border-blue-800/40 shadow-sm">
+  <div class="max-w-5xl mx-auto px-4 flex items-center justify-between h-14">
+    <div class="flex items-center gap-2">
+      <span class="text-white text-xl">🌪️</span>
+      <span class="text-white font-bold text-lg tracking-tight">SwiftClean</span>
+      <span class="text-brand-400 font-black text-lg">V12</span>
+    </div>
+    <div class="flex items-center gap-2">
+      <a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM"
+         target="_blank"
+         class="hidden sm:inline-flex items-center gap-1.5 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-bold text-xs px-4 py-2 rounded-full transition-all shadow">
+        🛒 MercadoLibre
+      </a>
+      <a href="#comprar"
+         class="bg-cta hover:bg-cta-hover text-white font-bold text-sm px-5 py-2 rounded-full transition-all shadow-md pulse-cta">
+        ¡Quiero la mía!
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ─────────────────────────────────────────
+     HERO
+───────────────────────────────────────── -->
+<section class="gradient-hero text-white">
+  <div class="max-w-5xl mx-auto px-4 pt-10 pb-8 text-center">
+    <div class="inline-flex items-center gap-2 badge-new text-white text-xs font-bold px-4 py-1.5 rounded-full mb-5 shadow">
+      🔥&nbsp; OFERTA VÁLIDA HASTA AGOTAR STOCK
+    </div>
+    <h1 class="text-3xl sm:text-5xl font-black leading-tight mb-4 drop-shadow-lg">
+      La única aspiradora que limpia<br/>
+      <span class="text-yellow-300">pelos de gato, arena</span> y el interior<br class="hidden sm:block"/>
+      de tu auto <span class="text-yellow-300">en segundos.</span>
+    </h1>
+    <p class="text-blue-100 text-base sm:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
+      <strong class="text-white">SwiftClean V12</strong> · Motor Brushless 25 Kpa ·
+      Sistema de filtración multicono + HEPA · Sin cables · Soporte de pared incluido.
+    </p>
+
+    <div class="bg-white/10 backdrop-blur border border-white/20 rounded-3xl p-6 max-w-sm mx-auto mb-6 shadow-2xl" id="comprar">
+      <div class="flex items-center justify-center gap-3 mb-1">
+        <span class="text-blue-200 line-through text-lg">$94.990</span>
+        <span class="badge-new text-white text-xs font-bold px-3 py-0.5 rounded-full">−33%</span>
+      </div>
+      <div class="text-5xl font-black text-white mb-1">$59.990</div>
+      <p class="text-blue-200 text-sm mb-5">Precio unitario · IVA incluido</p>
+      <a href="https://wa.me/56912345678?text=Hola!%20Quiero%20comprar%20la%20SwiftClean%20V12"
+         target="_blank"
+         class="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-black text-lg py-4 rounded-2xl transition-all shadow-xl pulse-green mb-3">
+        <svg class="w-6 h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Comprar por WhatsApp
+      </a>
+      <a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM"
+         target="_blank"
+         class="flex items-center justify-center gap-2 w-full bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-black text-base py-3.5 rounded-2xl transition-all shadow-lg mb-3">
+        🛒 Comprar en MercadoLibre
+      </a>
+      <p class="text-blue-200 text-xs text-center">🔒 Pago seguro · Garantía 3 meses · Envío a todo Chile</p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-4 text-blue-100 text-xs sm:text-sm">
+      <span>✅ 100% Nueva</span>
+      <span>📦 Despacho 24–48h</span>
+      <span>🏪 Retiro Macul, Stgo</span>
+      <span>⭐ +150 clientes felices</span>
+    </div>
+  </div>
+
+  <!-- HERO IMAGES GRID -->
+  <div class="max-w-5xl mx-auto px-4 pb-12">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+      <div class="img-wrap col-span-2 sm:col-span-2 aspect-square sm:aspect-auto sm:h-64 relative overflow-hidden rounded-2xl shadow-xl">
+        <img src="img/almacenamiento.webp" alt="Easy Storage y Carga — soporte de pared incluido" class="prod-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="absolute inset-0 hidden flex-col items-center justify-center bg-gradient-to-br from-gray-700 to-gray-900 p-4 text-center">
+          <span class="text-5xl mb-3">🏠</span>
+          <p class="text-white font-black text-lg leading-tight">Easy Storage<br/>and Charging</p>
+          <p class="text-gray-300 text-xs mt-1">Soporte de pared · Carga integrada</p>
+        </div>
+        <div class="absolute bottom-3 left-3 bg-black/70 backdrop-blur text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">🏠 Easy Storage · Soporte de pared incluido</div>
+      </div>
+      <div class="img-wrap col-span-1 aspect-square relative overflow-hidden rounded-2xl shadow-xl">
+        <img src="img/motor-accion.webp" alt="Motor Brushless 25 Kpa succión potente" class="prod-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="absolute inset-0 hidden flex-col items-center justify-center bg-gradient-to-br from-blue-900 to-blue-700 p-3 text-center">
+          <div class="kpa-badge mb-2 shadow-2xl"><span class="text-white font-black text-xl leading-none">25</span><span class="text-blue-200 text-xs font-bold">Kpa</span></div>
+          <p class="text-white font-bold text-sm">Motor Brushless<br/>25 Kpa</p>
+        </div>
+        <div class="absolute bottom-2 left-2 right-2 bg-black/60 backdrop-blur text-white text-xs font-semibold px-2 py-1 rounded-lg text-center">⚡ Motor Brushless 25 Kpa</div>
+      </div>
+      <div class="img-wrap col-span-1 aspect-square relative overflow-hidden rounded-2xl shadow-xl">
+        <img src="img/pisos-cabezal.webp" alt="Deep Cleaning todos los tipos de piso" class="prod-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="absolute inset-0 hidden flex-col items-center justify-center bg-gradient-to-br from-slate-700 to-slate-900 p-3 text-center">
+          <span class="text-4xl mb-2">🧹</span><p class="text-white font-bold text-sm">Deep Cleaning<br/>All Floor Types</p>
+        </div>
+        <div class="absolute bottom-2 left-2 right-2 bg-black/60 backdrop-blur text-white text-xs font-semibold px-2 py-1 rounded-lg text-center">🧹 Deep Cleaning · Todos los pisos</div>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-3 mt-3">
+      <div class="img-wrap aspect-video relative overflow-hidden rounded-2xl shadow-xl">
+        <img src="img/kit-completo.webp" alt="Kit completo What is included — todo en la caja" class="prod-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="absolute inset-0 hidden flex-col items-center justify-center bg-gradient-to-br from-blue-800 to-indigo-900 p-4 text-center">
+          <span class="text-4xl mb-2">📦</span><p class="text-white font-bold text-base">Kit Completo<br/>incluido</p>
+        </div>
+        <div class="absolute bottom-3 left-3 bg-cta text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">📦 Kit completo · Todo incluido en la caja</div>
+      </div>
+      <div class="img-wrap aspect-video relative overflow-hidden rounded-2xl shadow-xl">
+        <img src="img/filtracion.webp" alt="Sistema de filtración multicono HEPA 4 etapas" class="prod-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="absolute inset-0 hidden flex-col items-center justify-center bg-gradient-to-br from-cyan-800 to-blue-800 p-4 text-center">
+          <span class="text-4xl mb-2">🔬</span><p class="text-white font-bold text-base">Filtración<br/>Multicono HEPA</p>
+        </div>
+        <div class="absolute bottom-3 left-3 bg-brand-600 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">🔬 Filtro HEPA + Esponja + Ciclón Multicono</div>
+      </div>
+    </div>
+    <!-- FILA EXTRA: 3 imágenes adicionales -->
+    <div class="grid grid-cols-3 gap-3 mt-3">
+      <div class="img-wrap aspect-square relative overflow-hidden rounded-2xl shadow-xl">
+        <img src="img/06-hero.webp" alt="SwiftClean V12 vista completa" class="prod-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="absolute inset-0 hidden flex-col items-center justify-center bg-gradient-to-br from-brand-800 to-brand-600 p-3 text-center">
+          <span class="text-4xl mb-2">🌪️</span><p class="text-white font-bold text-sm">SwiftClean<br/>V12</p>
+        </div>
+        <div class="absolute bottom-2 left-2 right-2 bg-black/60 backdrop-blur text-white text-xs font-semibold px-2 py-1 rounded-lg text-center">Vista completa</div>
+      </div>
+      <div class="img-wrap col-span-2 aspect-video relative overflow-hidden rounded-2xl shadow-xl">
+        <img src="img/almacenamiento.webp" alt="Easy Storage and Charging — soporte de pared con carga" class="prod-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="absolute inset-0 hidden flex-col items-center justify-center bg-gradient-to-br from-gray-700 to-gray-900 p-4 text-center">
+          <span class="text-4xl mb-2">🏠</span><p class="text-white font-black text-base">Easy Storage and Charging</p>
+        </div>
+        <div class="absolute bottom-3 left-3 bg-black/70 backdrop-blur text-white text-xs font-bold px-3 py-1.5 rounded-full shadow">🏠 Carga en la pared · Siempre lista</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RATING BAR -->
+<section class="bg-brand-50 border-y border-brand-100 py-5">
+  <div class="max-w-3xl mx-auto px-4 flex flex-wrap items-center justify-center gap-6 text-sm">
+    <div class="flex items-center gap-2"><span class="star text-xl">★★★★★</span><span class="font-bold text-gray-800">4.9/5</span><span class="text-gray-500">(152 reseñas)</span></div>
+    <div class="h-4 w-px bg-gray-300 hidden sm:block"></div>
+    <div class="flex items-center gap-1 text-gray-600">🐾 Dueños de mascotas lo aman</div>
+    <div class="h-4 w-px bg-gray-300 hidden sm:block"></div>
+    <div class="flex items-center gap-1 text-gray-600">🚗 Detailers lo recomiendan</div>
+    <div class="h-4 w-px bg-gray-300 hidden sm:block"></div>
+    <a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM" target="_blank"
+       class="flex items-center gap-1.5 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-bold text-xs px-4 py-1.5 rounded-full transition-all shadow">
+      🛒 Ver en MercadoLibre
+    </a>
+  </div>
+</section>
+
+<!-- BENEFICIOS -->
+<section class="py-16 px-4 max-w-5xl mx-auto">
+  <div class="text-center mb-12">
+    <p class="text-brand-500 font-semibold text-sm uppercase tracking-widest mb-2">Por qué te va a cambiar la vida</p>
+    <h2 class="text-3xl sm:text-4xl font-black text-gray-900 leading-tight">Deja de pelear con la escoba.<br/><span class="text-brand-600">Limpia en segundos.</span></h2>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"><div class="text-4xl mb-3">💨</div><h3 class="font-bold text-gray-900 text-lg mb-2">Motor Brushless 25 Kpa</h3><p class="text-gray-500 text-sm leading-relaxed">El motor sin escobillas genera 25 kilopascales de succión real. Levanta pelo incrustado, arena fina, migas y alimento de mascotas sin esfuerzo.</p></div>
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"><div class="text-4xl mb-3">🔬</div><h3 class="font-bold text-gray-900 text-lg mb-2">Sistema Multicono + HEPA</h3><p class="text-gray-500 text-sm leading-relaxed">4 etapas de filtración: Esponja → HEPA → Ciclón Multicono → Ciclón Primario. Atrapa hasta el polvo más fino. Filtro HEPA lavable, sin costo de repuesto.</p></div>
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"><div class="text-4xl mb-3">🏠</div><h3 class="font-bold text-gray-900 text-lg mb-2">Soporte de pared incluido</h3><p class="text-gray-500 text-sm leading-relaxed">Carga y almacena en la pared sin ocupar espacio en el suelo. Siempre lista y cargada. Instalación en minutos con 2 tornillos.</p></div>
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"><div class="text-4xl mb-3">📏</div><h3 class="font-bold text-gray-900 text-lg mb-2">Tubo metálico retráctil</h3><p class="text-gray-500 text-sm leading-relaxed">Ajusta la altura según tu necesidad. Úsala como aspiradora de palo para el suelo o desmóntala para limpiar sofás, autos y rincones difíciles.</p></div>
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"><div class="text-4xl mb-3">🧹</div><h3 class="font-bold text-gray-900 text-lg mb-2">Cabezal motorizado con LED</h3><p class="text-gray-500 text-sm leading-relaxed">El cepillo motorizado con luz LED ilumina debajo de los muebles. Funciona en parquet, alfombra, cerámica y tapiz sin cambiar ajustes.</p></div>
+    <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow"><div class="text-4xl mb-3">🛡️</div><h3 class="font-bold text-gray-900 text-lg mb-2">Garantía 3 meses</h3><p class="text-gray-500 text-sm leading-relaxed">Falla de fábrica = la cambiamos sin preguntas. Disponible también en MercadoLibre con protección de comprador.</p></div>
+  </div>
+</section>
+
+<!-- FILTRACIÓN -->
+<section class="bg-gradient-to-br from-brand-900 to-brand-700 py-16 px-4 text-white">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-10">
+      <p class="text-brand-400 font-semibold text-sm uppercase tracking-widest mb-2">Tecnología de filtración</p>
+      <h2 class="text-3xl sm:text-4xl font-black">Multiple High Efficiency<br/>Filtration System</h2>
+      <p class="text-blue-200 mt-3 text-base max-w-xl mx-auto">4 capas de filtración en serie. El aire que sale es más limpio que el que entra.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-8 items-center">
+      <div class="img-wrap bg-white/10 border border-white/20 rounded-3xl overflow-hidden min-h-64">
+        <img src="img/filtracion.webp" alt="Sistema de filtración multicono HEPA — 4 etapas" class="w-full h-auto object-cover rounded-3xl" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+        <div class="hidden w-full h-64 flex-col items-center justify-center gap-3 p-6"><span class="text-6xl">🔬</span><p class="text-white font-bold text-lg text-center">Sistema de Filtración<br/>Multicono HEPA</p></div>
+      </div>
+      <div class="space-y-4">
+        <div class="flex items-start gap-4 bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-4"><div class="w-10 h-10 rounded-full bg-yellow-400 text-yellow-900 flex items-center justify-center font-black text-sm flex-shrink-0">1</div><div><p class="font-bold text-white">Filtro de Esponja</p><p class="text-blue-200 text-sm">Primera barrera. Captura partículas grandes: pelo, polvo grueso.</p></div></div>
+        <div class="flex items-start gap-4 bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-4"><div class="w-10 h-10 rounded-full bg-brand-400 text-white flex items-center justify-center font-black text-sm flex-shrink-0">2</div><div><p class="font-bold text-white">Filtro HEPA lavable</p><p class="text-blue-200 text-sm">Atrapa alérgenos, ácaros y partículas finas de mascotas. Reutilizable.</p></div></div>
+        <div class="flex items-start gap-4 bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-4"><div class="w-10 h-10 rounded-full bg-cyan-400 text-cyan-900 flex items-center justify-center font-black text-sm flex-shrink-0">3</div><div><p class="font-bold text-white">Filtración Ciclónica Multicono</p><p class="text-blue-200 text-sm">Separa el polvo por centrifugación. Mantiene la succión constante.</p></div></div>
+        <div class="flex items-start gap-4 bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-4"><div class="w-10 h-10 rounded-full bg-green-400 text-green-900 flex items-center justify-center font-black text-sm flex-shrink-0">4</div><div><p class="font-bold text-white">Ciclón Primario + Strong Cyclone</p><p class="text-blue-200 text-sm">Filtración final. El aire expulsado está limpio de contaminantes.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASOS DE USO -->
+<section class="py-16 px-4 bg-gray-50">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-12">
+      <p class="text-brand-500 font-semibold text-sm uppercase tracking-widest mb-2">Diseñada para tu estilo de vida</p>
+      <h2 class="text-3xl sm:text-4xl font-black text-gray-900">¿La tuya o la de tu gato?</h2>
+      <p class="text-gray-500 mt-2 text-lg">Da igual. La SwiftClean V12 lo limpia todo.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-8">
+      <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-gray-100">
+        <div class="bg-gradient-to-br from-purple-50 to-pink-50 h-52 flex items-center justify-center relative">
+          <img src="img/motor-accion.webp" alt="Aspiradora con pelo y suciedad de mascotas" class="w-full h-full object-cover opacity-30 absolute inset-0" onerror="this.style.display='none'"/>
+          <div class="relative z-10 text-center px-4"><span class="text-7xl">🐱</span><div class="mt-2 flex flex-wrap justify-center gap-2"><span class="bg-pink-100 text-pink-700 text-xs font-semibold px-3 py-1 rounded-full">Pelo de gato</span><span class="bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full">Arena en el sofá</span><span class="bg-orange-100 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full">Alérgenos</span></div></div>
+        </div>
+        <div class="p-6"><h3 class="font-black text-xl text-gray-900 mb-2">🐾 Para dueños de mascotas</h3><p class="text-gray-600 text-sm leading-relaxed mb-4">¿Cansado de que el sofá parezca una alfombra de pelos? El cepillo 2en1 del V12 levanta hasta el pelo más fino y el filtro HEPA atrapa los alérgenos que otros aspiran y vuelven a largar al aire.</p><ul class="space-y-2 text-sm text-gray-700"><li class="flex items-start gap-2"><span class="text-green-500 font-bold">✓</span> Pelo incrustado en tapizados y alfombras</li><li class="flex items-start gap-2"><span class="text-green-500 font-bold">✓</span> Arena de la bandeja que cae al suelo</li><li class="flex items-start gap-2"><span class="text-green-500 font-bold">✓</span> Limpieza rápida de la cama o jaula</li><li class="flex items-start gap-2"><span class="text-green-500 font-bold">✓</span> Filtro HEPA atrapa alérgenos de mascotas</li></ul></div>
+      </div>
+      <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-gray-100">
+        <div class="bg-gradient-to-br from-blue-50 to-cyan-50 h-52 flex items-center justify-center relative">
+          <img src="img/pisos-cabezal.webp" alt="Cabezal limpiando interior de auto" class="w-full h-full object-cover opacity-25 absolute inset-0" onerror="this.style.display='none'"/>
+          <div class="relative z-10 text-center px-4"><span class="text-7xl">🚗</span><div class="mt-2 flex flex-wrap justify-center gap-2"><span class="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">Alfombras del auto</span><span class="bg-cyan-100 text-cyan-700 text-xs font-semibold px-3 py-1 rounded-full">Ranuras asiento</span><span class="bg-sky-100 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full">Tablero</span></div></div>
+        </div>
+        <div class="p-6"><h3 class="font-black text-xl text-gray-900 mb-2">🚙 Para los que aman su auto</h3><p class="text-gray-600 text-sm leading-relaxed mb-4">El detailing profesional cuesta una fortuna. Mantén el interior impecable tú mismo. El tubo retráctil + cepillo 2en1 llega hasta la ranura más escondida del asiento.</p><ul class="space-y-2 text-sm text-gray-700"><li class="flex items-start gap-2"><span class="text-green-500 font-bold">✓</span> Migas y tierra en alfombras y tapizados</li><li class="flex items-start gap-2"><span class="text-green-500 font-bold">✓</span> Ranuras entre asientos y consola central</li><li class="flex items-start gap-2"><span class="text-green-500 font-bold">✓</span> Tablero y rejillas con luz LED</li><li class="flex items-start gap-2"><span class="text-green-500 font-bold">✓</span> Fácil de guardar en el maletero</li></ul></div>
+      </div>
+    </div>
+    <div class="text-center mt-12 space-y-3">
+      <a href="https://wa.me/56912345678?text=Hola!%20Quiero%20la%20SwiftClean%20V12" target="_blank" class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-black text-lg px-10 py-4 rounded-2xl transition-all shadow-xl pulse-green"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>Pedir por WhatsApp →</a>
+      <div><a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM" target="_blank" class="inline-flex items-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-bold text-base px-8 py-3 rounded-2xl transition-all shadow-md">🛒 Ver publicación en MercadoLibre</a></div>
+      <p class="text-gray-400 text-sm">Solo $59.990 · Envío a todo Chile</p>
+    </div>
+  </div>
+</section>
+
+<!-- TIPOS DE PISO -->
+<section class="py-16 px-4 max-w-5xl mx-auto">
+  <div class="text-center mb-10"><p class="text-brand-500 font-semibold text-sm uppercase tracking-widest mb-2">Limpieza profunda</p><h2 class="text-3xl sm:text-4xl font-black text-gray-900">Deep Cleaning All Floor Types</h2><p class="text-gray-500 mt-2">El cabezal 2en1 se adapta a cualquier superficie sin cambiar herramientas.</p></div>
+  <div class="grid sm:grid-cols-2 gap-8 items-center mb-10">
+    <div class="img-wrap rounded-3xl overflow-hidden min-h-64 shadow-xl"><img src="img/pisos-cabezal.webp" alt="Cabezal 2en1 en todos los tipos de piso" class="w-full h-auto object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><div class="hidden w-full h-64 flex-col items-center justify-center bg-slate-800 gap-2"><span class="text-5xl">🧹</span><p class="text-white font-bold">Todos los tipos de piso</p></div></div>
+    <div class="grid grid-cols-2 gap-4">
+      <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4 text-center shadow-sm"><div class="text-3xl mb-2">🪵</div><p class="font-bold text-gray-800 text-sm">Parquet / Madera</p><p class="text-gray-500 text-xs mt-1">Sin rayar la superficie</p></div>
+      <div class="bg-gray-50 border border-gray-200 rounded-2xl p-4 text-center shadow-sm"><div class="text-3xl mb-2">🔲</div><p class="font-bold text-gray-800 text-sm">Cerámica / Baldosa</p><p class="text-gray-500 text-xs mt-1">Succión total al ras</p></div>
+      <div class="bg-blue-50 border border-blue-200 rounded-2xl p-4 text-center shadow-sm"><div class="text-3xl mb-2">🟦</div><p class="font-bold text-gray-800 text-sm">Alfombra baja</p><p class="text-gray-500 text-xs mt-1">Cepillo motorizado</p></div>
+      <div class="bg-green-50 border border-green-200 rounded-2xl p-4 text-center shadow-sm"><div class="text-3xl mb-2">🟩</div><p class="font-bold text-gray-800 text-sm">Tapiz / Rug</p><p class="text-gray-500 text-xs mt-1">25 Kpa de succión</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUÉ INCLUYE -->
+<section class="bg-gray-50 py-16 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-10"><p class="text-brand-500 font-semibold text-sm uppercase tracking-widest mb-2">Todo lo que recibes</p><h2 class="text-3xl sm:text-4xl font-black text-gray-900">Un kit completo desde el primer día</h2><p class="text-gray-500 mt-2">Sin pagar accesorios extra. Todo nuevo, todo en la caja.</p></div>
+    <div class="grid sm:grid-cols-2 gap-8 items-center">
+      <div class="img-wrap rounded-3xl overflow-hidden min-h-72 shadow-xl bg-white border border-gray-100"><img src="img/kit-completo.webp" alt="Kit completo SwiftClean V12 — What is included" class="w-full h-auto object-contain p-4" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><div class="hidden w-full h-72 flex-col items-center justify-center bg-blue-50 gap-2 p-4"><span class="text-5xl">📦</span><p class="text-brand-700 font-bold text-center">Kit Completo incluido</p></div></div>
+      <div class="grid grid-cols-2 gap-3">
+        <div class="bg-white rounded-2xl p-4 text-center shadow-sm border border-gray-100"><div class="text-3xl mb-1">🌪️</div><p class="text-xs font-bold text-gray-800">Aspiradora V12</p><p class="text-xs text-gray-500">Motor Brushless</p></div>
+        <div class="bg-white rounded-2xl p-4 text-center shadow-sm border border-gray-100"><div class="text-3xl mb-1">🪮</div><p class="text-xs font-bold text-gray-800">Cepillo 2en1</p><p class="text-xs text-gray-500">Pelo + superficie</p></div>
+        <div class="bg-white rounded-2xl p-4 text-center shadow-sm border border-gray-100"><div class="text-3xl mb-1">🧰</div><p class="text-xs font-bold text-gray-800">Gadget 2en1</p><p class="text-xs text-gray-500">Ranuras + esquinas</p></div>
+        <div class="bg-white rounded-2xl p-4 text-center shadow-sm border border-gray-100"><div class="text-3xl mb-1">🏠</div><p class="text-xs font-bold text-gray-800">Soporte de pared</p><p class="text-xs text-gray-500">Carga integrada</p></div>
+        <div class="bg-white rounded-2xl p-4 text-center shadow-sm border border-gray-100"><div class="text-3xl mb-1">🔬</div><p class="text-xs font-bold text-gray-800">Filtro HEPA extra</p><p class="text-xs text-gray-500">Repuesto incluido</p></div>
+        <div class="bg-white rounded-2xl p-4 text-center shadow-sm border border-gray-100"><div class="text-3xl mb-1">🔌</div><p class="text-xs font-bold text-gray-800">Adaptador + Manual</p><p class="text-xs text-gray-500">Guía de inicio</p></div>
+      </div>
+    </div>
+    <div class="mt-10 grid sm:grid-cols-2 gap-8 items-center">
+      <div><h3 class="text-2xl font-black text-gray-900 mb-3">Easy Storage and Charging</h3><p class="text-gray-600 leading-relaxed mb-5">El soporte de pared incluido te permite colgar la aspiradora lista para usarla y cargándose al mismo tiempo. Sin cables tirados en el suelo.</p><ul class="space-y-3 text-sm text-gray-700"><li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Se instala con 2 tornillos</li><li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Carga mientras está guardada</li><li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Siempre lista para usar al instante</li><li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> También se apoya en el suelo</li></ul></div>
+      <div class="img-wrap rounded-3xl overflow-hidden min-h-64 shadow-xl bg-white border border-gray-100"><img src="img/almacenamiento.webp" alt="Easy Storage and Charging — soporte de pared SwiftClean V12" class="w-full h-auto object-cover" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><div class="hidden w-full h-64 flex-col items-center justify-center bg-gray-100 gap-2"><span class="text-5xl">🏠</span><p class="text-gray-600 font-bold text-center">Easy Storage<br/>and Charging</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ESPECIFICACIONES -->
+<section class="py-16 px-4">
+  <div class="max-w-3xl mx-auto">
+    <div class="text-center mb-10"><p class="text-brand-500 font-semibold text-sm uppercase tracking-widest mb-2">Ficha técnica</p><h2 class="text-3xl sm:text-4xl font-black text-gray-900">Especificaciones completas</h2></div>
+    <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-gray-100">
+      <table class="w-full text-sm">
+        <tbody>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700 w-1/2">Modelo</td><td class="px-6 py-4 font-medium">SwiftClean V12</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Tipo de motor</td><td class="px-6 py-4 font-medium">Brushless (sin escobillas)</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Potencia</td><td class="px-6 py-4 font-medium">120W</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Succión</td><td class="px-6 py-4"><span class="bg-brand-600 text-white font-bold text-xs px-3 py-1 rounded-full">25 Kpa</span></td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Filtración</td><td class="px-6 py-4 font-medium">4 etapas: Esponja + HEPA + Multicono + Ciclón</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Filtro HEPA</td><td class="px-6 py-4 font-medium">Lavable + 1 repuesto incluido</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Tubo</td><td class="px-6 py-4 font-medium">Metálico retráctil ajustable</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Cabezal</td><td class="px-6 py-4 font-medium">Motorizado con luz LED</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Almacenamiento</td><td class="px-6 py-4 font-medium">Soporte de pared con carga integrada</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Garantía</td><td class="px-6 py-4 font-medium">3 meses fallas de fábrica</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Estado</td><td class="px-6 py-4"><span class="bg-green-100 text-green-700 font-bold text-xs px-3 py-1 rounded-full">100% Nuevo</span></td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Despacho</td><td class="px-6 py-4 font-medium">Todo Chile · 24–48h hábiles</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Retiro</td><td class="px-6 py-4 font-medium">Macul, Santiago</td></tr>
+          <tr class="spec-row"><td class="px-6 py-4 font-semibold text-gray-700">Compra online</td><td class="px-6 py-4"><a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM" target="_blank" class="inline-flex items-center gap-1.5 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-bold text-xs px-3 py-1.5 rounded-full transition-all">🛒 Ver en MercadoLibre</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="bg-gray-50 py-16 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="text-center mb-10"><p class="text-brand-500 font-semibold text-sm uppercase tracking-widest mb-2">Lo que dicen nuestros clientes</p><h2 class="text-3xl sm:text-4xl font-black text-gray-900">+150 clientes felices en Chile</h2></div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100"><div class="flex items-center gap-3 mb-4"><div class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center font-bold text-pink-600">C</div><div><p class="font-bold text-gray-900 text-sm">Camila R.</p><p class="text-gray-400 text-xs">Santiago · Dueña de 2 gatos persas</p></div><div class="ml-auto text-yellow-400 text-sm">★★★★★</div></div><p class="text-gray-600 text-sm leading-relaxed">"Tengo dos gatos persas y el sofá era un DESASTRE. La SwiftClean lo dejó impecable en 5 minutos. El filtro HEPA es un salvavidas 🐾"</p><div class="mt-3 bg-green-50 border border-green-200 rounded-xl px-3 py-1.5 inline-flex items-center gap-1"><span class="text-green-500 text-xs font-bold">✓ Compra verificada</span></div></div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100"><div class="flex items-center gap-3 mb-4"><div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center font-bold text-blue-600">F</div><div><p class="font-bold text-gray-900 text-sm">Felipe M.</p><p class="text-gray-400 text-xs">Viña del Mar · Fanático del detailing</p></div><div class="ml-auto text-yellow-400 text-sm">★★★★★</div></div><p class="text-gray-600 text-sm leading-relaxed">"La potencia de 25 Kpa se siente de verdad. El soporte de pared es un detalle premium. Lo uso todas las semanas 🚗"</p><div class="mt-3 bg-green-50 border border-green-200 rounded-xl px-3 py-1.5 inline-flex items-center gap-1"><span class="text-green-500 text-xs font-bold">✓ Compra verificada</span></div></div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100"><div class="flex items-center gap-3 mb-4"><div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center font-bold text-purple-600">V</div><div><p class="font-bold text-gray-900 text-sm">Valeria S.</p><p class="text-gray-400 text-xs">Concepción · Mamá de mascota y bebé</p></div><div class="ml-auto text-yellow-400 text-sm">★★★★★</div></div><p class="text-gray-600 text-sm leading-relaxed">"La pedí por el pelo de mi perro y termino usándola para todo. Atención por WhatsApp inmediata. 10/10 😍"</p><div class="mt-3 bg-green-50 border border-green-200 rounded-xl px-3 py-1.5 inline-flex items-center gap-1"><span class="text-green-500 text-xs font-bold">✓ Compra verificada</span></div></div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100"><div class="flex items-center gap-3 mb-4"><div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center font-bold text-orange-600">D</div><div><p class="font-bold text-gray-900 text-sm">Diego P.</p><p class="text-gray-400 text-xs">Temuco · Detailer amateur</p></div><div class="ml-auto text-yellow-400 text-sm">★★★★★</div></div><p class="text-gray-600 text-sm leading-relaxed">"La compré en MercadoLibre, llegó en 2 días perfectamente embalada. El LED del cabezal es increíble."</p><div class="mt-3 bg-green-50 border border-green-200 rounded-xl px-3 py-1.5 inline-flex items-center gap-1"><span class="text-green-500 text-xs font-bold">✓ Compra verificada · MercadoLibre</span></div></div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100"><div class="flex items-center gap-3 mb-4"><div class="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center font-bold text-teal-600">A</div><div><p class="font-bold text-gray-900 text-sm">Andrea L.</p><p class="text-gray-400 text-xs">Providencia, Santiago</p></div><div class="ml-auto text-yellow-400 text-sm">★★★★★</div></div><p class="text-gray-600 text-sm leading-relaxed">"Retiré en Macul el mismo día. Me mostraron cómo usarla. El filtro HEPA extra incluido fue un gran detalle."</p><div class="mt-3 bg-green-50 border border-green-200 rounded-xl px-3 py-1.5 inline-flex items-center gap-1"><span class="text-green-500 text-xs font-bold">✓ Retiro presencial verificado</span></div></div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100"><div class="flex items-center gap-3 mb-4"><div class="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center font-bold text-red-600">M</div><div><p class="font-bold text-gray-900 text-sm">Matías V.</p><p class="text-gray-400 text-xs">Rancagua · 3 gatos en casa</p></div><div class="ml-auto text-yellow-400 text-sm">★★★★★</div></div><p class="text-gray-600 text-sm leading-relaxed">"El sistema multicono hace diferencia real. Mi aspiradora anterior solo movía el pelo. Esta lo atrapa 👌"</p><div class="mt-3 bg-green-50 border border-green-200 rounded-xl px-3 py-1.5 inline-flex items-center gap-1"><span class="text-green-500 text-xs font-bold">✓ Compra verificada</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- URGENCIA -->
+<section class="gradient-hero py-14 px-4 text-white text-center">
+  <div class="max-w-2xl mx-auto">
+    <div class="inline-block bg-yellow-400 text-yellow-900 font-black text-sm px-5 py-2 rounded-full mb-5 shadow">⏳ OFERTA POR TIEMPO LIMITADO – STOCK BAJO</div>
+    <h2 class="text-3xl sm:text-4xl font-black mb-3 drop-shadow">¿Sigues pensándolo?<br/>El stock se acaba <span class="text-yellow-300">hoy.</span></h2>
+    <p class="text-blue-100 text-base sm:text-lg mb-8 max-w-lg mx-auto">Envíos en 24–48h a todo Chile. Retiro en Macul. Garantía 3 meses.</p>
+    <div class="bg-white/10 backdrop-blur border border-white/20 rounded-3xl p-6 max-w-sm mx-auto mb-6 shadow-2xl">
+      <div class="text-4xl font-black text-white mb-1">$59.990</div>
+      <p class="text-blue-200 text-sm mb-5">Precio unitario · IVA incluido</p>
+      <a href="https://wa.me/56912345678?text=Hola!%20Quiero%20la%20SwiftClean%20V12" target="_blank" class="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-black text-lg py-4 rounded-2xl transition-all shadow-xl pulse-green mb-3"><svg class="w-6 h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>💬 Pedir por WhatsApp</a>
+      <a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM" target="_blank" class="flex items-center justify-center gap-2 w-full bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-black text-base py-3.5 rounded-2xl transition-all shadow-lg">🛒 Comprar en MercadoLibre</a>
+    </div>
+    <div class="flex flex-wrap justify-center gap-4 text-sm text-blue-100"><span>🔒 Pago seguro</span><span>📦 Starken / Chilexpress</span><span>🏪 Retiro Macul</span><span>🛡️ Garantía 3 meses</span></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-16 px-4 max-w-3xl mx-auto">
+  <div class="text-center mb-10"><p class="text-brand-500 font-semibold text-sm uppercase tracking-widest mb-2">Preguntas frecuentes</p><h2 class="text-3xl sm:text-4xl font-black text-gray-900">Resolvemos tus dudas</h2></div>
+  <div class="space-y-3">
+    <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm cursor-pointer" onclick="toggleFaq(this)"><div class="flex items-center justify-between px-6 py-4"><span class="font-semibold text-gray-900 text-sm sm:text-base">¿Cuánto demora el envío a regiones?</span><span class="faq-icon text-brand-500 font-bold text-xl">+</span></div><div class="faq-content px-6"><p class="text-gray-500 text-sm pb-4 leading-relaxed">El despacho se realiza dentro de 24 horas hábiles. El tiempo de tránsito a regiones es de 2 a 5 días hábiles (Starken o Chilexpress). Te enviamos el número de seguimiento por WhatsApp.</p></div></div>
+    <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm cursor-pointer" onclick="toggleFaq(this)"><div class="flex items-center justify-between px-6 py-4"><span class="font-semibold text-gray-900 text-sm sm:text-base">¿Cómo funciona la garantía de 3 meses?</span><span class="faq-icon text-brand-500 font-bold text-xl">+</span></div><div class="faq-content px-6"><p class="text-gray-500 text-sm pb-4 leading-relaxed">Si hay una falla de fábrica (no por mal uso), la cambiamos sin costo. Contáctanos por WhatsApp con evidencia y coordinamos el cambio.</p></div></div>
+    <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm cursor-pointer" onclick="toggleFaq(this)"><div class="flex items-center justify-between px-6 py-4"><span class="font-semibold text-gray-900 text-sm sm:text-base">¿Puedo comprar por MercadoLibre?</span><span class="faq-icon text-brand-500 font-bold text-xl">+</span></div><div class="faq-content px-6"><p class="text-gray-500 text-sm pb-4 leading-relaxed">¡Sí! Tenemos publicación activa con protección de comprador. <a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM" target="_blank" class="text-brand-600 font-semibold underline">Ver publicación →</a></p></div></div>
+    <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm cursor-pointer" onclick="toggleFaq(this)"><div class="flex items-center justify-between px-6 py-4"><span class="font-semibold text-gray-900 text-sm sm:text-base">¿El filtro HEPA se puede comprar de repuesto?</span><span class="faq-icon text-brand-500 font-bold text-xl">+</span></div><div class="faq-content px-6"><p class="text-gray-500 text-sm pb-4 leading-relaxed">El kit incluye un filtro HEPA extra. Además el filtro principal es lavable y reutilizable. Si necesitas más repuestos, consúltanos.</p></div></div>
+    <div class="faq-item bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm cursor-pointer" onclick="toggleFaq(this)"><div class="flex items-center justify-between px-6 py-4"><span class="font-semibold text-gray-900 text-sm sm:text-base">¿Puedo retirar en persona en Santiago?</span><span class="faq-icon text-brand-500 font-bold text-xl">+</span></div><div class="faq-content px-6"><p class="text-gray-500 text-sm pb-4 leading-relaxed">Sí, retiro presencial en Macul, Santiago. Coordina el horario por WhatsApp. El retiro es gratis y puedes revisar el producto antes de llevarlo.</p></div></div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="bg-gray-900 py-16 px-4 text-white text-center">
+  <div class="max-w-xl mx-auto">
+    <div class="text-5xl mb-4">🌪️</div>
+    <h2 class="text-3xl sm:text-4xl font-black mb-4 leading-tight">Tu casa más limpia.<br/><span class="text-brand-400">A un mensaje de distancia.</span></h2>
+    <p class="text-gray-400 mb-8 text-base leading-relaxed">Escríbenos por WhatsApp o compra en MercadoLibre con protección de comprador.</p>
+    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+      <a href="https://wa.me/56912345678?text=Hola!%20Quiero%20la%20SwiftClean%20V12" target="_blank" class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-black text-lg px-8 py-4 rounded-2xl transition-all shadow-xl pulse-green"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>WhatsApp</a>
+      <a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM" target="_blank" class="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 font-black text-lg px-8 py-4 rounded-2xl transition-all shadow-xl">🛒 MercadoLibre</a>
+    </div>
+    <p class="text-gray-500 text-sm mt-5">📸 Instagram: @venta_aspiradoras_chile</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-950 text-gray-400 py-10 px-4">
+  <div class="max-w-5xl mx-auto">
+    <div class="grid sm:grid-cols-3 gap-8 mb-8">
+      <div><div class="flex items-center gap-2 mb-3"><span class="text-2xl">🌪️</span><span class="text-white font-bold text-lg">SwiftClean <span class="text-brand-400">V12</span></span></div><p class="text-sm leading-relaxed">Aspiradoras inalámbricas de alta calidad. Envíos a todo Chile con Starken y Chilexpress.</p></div>
+      <div><h4 class="text-white font-semibold mb-3 text-sm">Contacto</h4><ul class="space-y-2 text-sm"><li>💬 WhatsApp: +56 9 1234 5678</li><li>📸 Instagram: @venta_aspiradoras_chile</li><li>🏪 Retiro: Macul, Santiago</li></ul></div>
+      <div><h4 class="text-white font-semibold mb-3 text-sm">Compra segura</h4><ul class="space-y-2 text-sm"><li>✅ Productos 100% nuevos</li><li>🛡️ Garantía 3 meses fábrica</li><li>📦 Despacho Starken / Chilexpress</li><li>🛒 <a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM" target="_blank" class="underline hover:text-yellow-400 transition-colors">Ver en MercadoLibre</a></li></ul></div>
+    </div>
+    <div class="border-t border-gray-800 pt-6 text-center text-xs text-gray-600">© 2025 SwiftClean Chile · Todos los derechos reservados · Macul, Santiago de Chile</div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<a href="https://wa.me/56912345678?text=Hola!%20Quiero%20la%20SwiftClean%20V12" target="_blank" class="fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl transition-all hover:scale-110 pulse-green" title="Comprar por WhatsApp">
+  <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+<a href="https://articulo.mercadolibre.cl/MLC-2797550086-aspiradora-inalambrica-portatil-120w-hogar-auto-5-acces-_JM" target="_blank" class="fixed bottom-24 right-5 z-50 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all hover:scale-110 text-xl font-black" title="Ver en MercadoLibre">🛒</a>
+
+<script>
+  function toggleFaq(el) {
+    const isOpen = el.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) el.classList.add('open');
+  }
+</script>
+</body>
+</html>
+
